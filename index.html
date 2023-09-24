@@ -8,21 +8,17 @@
     <link rel="icon" href="./assets/img/favicon.ico">
 </head>
 <body>
-
+<main>
     <audio src="" id="audio"></audio>
-
     <div class="music-player">
         <h1 class="music-name">song one</h1>
         <p class="artist-name">artist</p>
-
         <div class="disk"></div>
-
         <div class="song-slider">
             <input type="range" value="0" class="seek-bar">
             <span class="current-time">00:00</span>
             <span class="song-duration">00:00</span>
         </div>
-
         <div class="controls">
             <button class="btn backward-btn"><img src="./assets/img/pre.png" alt="backward-btn"></button>
             <button class="play-btn pause">
@@ -31,8 +27,16 @@
             </button>
             <button class="btn forward-btn"><img src="./assets/img/nxt.png" alt="forward-btn"></button>
         </div>
-
     </div>
+</main>
+    <footer class="footer">
+        <div class="github"><a href="https://github.com/magit/ghub" class="footer-link"><span>
+            Vyacheslav Suzdaltcev
+        </span></a></div>
+            <div class="year"><span>2023</span>
+            </div>
+            <div class="school"><a href="https://rs.school/js-stage0/" class="footer-link"><img src="https://rs.school/images/rs_school_js.svg" alt="school"></a></div>      
+    </footer>
     <script src="./data.js"></script>
     <script src="./index.js"></script>
 </body>
