@@ -13,7 +13,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #5f7a61;
+    background: #5f7a61; 
+    background-image: url(../img/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: var(--font-forunreg);
     
 }
